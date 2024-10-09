@@ -90,7 +90,17 @@
     }
 }
 @media screen and ( max-width: 115.2rem){
-
+    .main-nav__items{
+        display: none;
+    }
+    .main-nav__cta{
+        justify-content: flex-end;
+    }
+    .toggle-btn{
+        display: block;
+        margin-left: 2rem;
+        
+    }
 }
 @media screen and ( max-width: 76.8){
 
