@@ -6,6 +6,10 @@
  html{
     font-size: 62.5%;
     font-family: "Inter", sans-serif;
+    height: 100%;
+ }
+ body{
+    height: 100vw;
  }
  h1{
     font-size: 2.6rem;
