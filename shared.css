@@ -102,8 +102,13 @@
         
     }
 }
-@media screen and ( max-width: 76.8){
-
+@media screen and ( max-width: 76.8rem){
+    .main-nav{
+        padding: 3.3rem 0;
+    }
+    .main-nav__cta{
+        display: none;
+    }
 }
 @media screen and ( max-width: 32rem){
 
