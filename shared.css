@@ -3,6 +3,7 @@
 /* header and nav */
 .main-header{
     min-height: 10vh;
+    display: flex;
     background-color: var(--primary-dark-blue);
     position: sticky;
     top: 0;
@@ -23,6 +24,7 @@
     color: var(--secondary-white);
     font-size: 2.8rem;
     font-weight: 700;
+    cursor: pointer;
 
 }
 .main-nav__items{
@@ -63,7 +65,7 @@
     letter-spacing: -0.36px;
     max-height: 6rem;
 }
-.main-nav__cta #try-button{
+#signiture-button{
     background-color: var(--primary-light-blue);
     color: var(--secondary-white);
     display: flex;
