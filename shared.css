@@ -13,15 +13,15 @@
     align-items: center;
     justify-content: space-around;
     margin: auto;
-    padding: 16px 0;
+    padding: 1.6rem 0;
 }
 .logo-white{
     flex: 1 1 30rem;
     display: flex;
-    column-gap: 10px;
+    column-gap: 1rem;
     align-items: center;
     color: var(--secondary-white);
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 700;
 
 }
@@ -30,49 +30,50 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    column-gap: 32px;
-    margin-right: 75px;
+    column-gap: 3.2rem;
+    margin-right: 7.5rem;
 }
 .main-nav__item{
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 1rem;
 }
 .main-nav__item a{
     font-family: "DM Sans";
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 2.3rem;
 }
 .main-nav__cta{
     flex: 1 1 10rem;
 }
 .main-nav__cta{
     display: flex;
-    column-gap: 24px;
+    column-gap: 2.4rem;
 }
 .main-nav__cta #login{
     background-color: var(--secondary-wheat);
     color: var(--primary-dark-blue);
-    padding: 16px 40px;
-    border-radius: 8px;
-    font-size: 18px;
+    padding: 1.6rem 4rem;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 2.3rem;
     letter-spacing: -0.36px;
-    max-height: 60px;
+    max-height: 6rem;
 }
 .main-nav__cta #try-button{
     background-color: var(--primary-light-blue);
     color: var(--secondary-white);
-    padding: 16px 24px;
-    font-size: 18px;
+    padding: 1.6rem 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 2.3rem;
     letter-spacing: -0.36px;
-    max-height: 60px;
-    min-width: 227px;
-    border-radius: 8px;
+    max-height: 6rem;
+    min-width: 22.7rem;
+    border-radius: 0.8rem;
     text-align: center;
 }
+
