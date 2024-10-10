@@ -2,7 +2,7 @@
 .hero-section{
     background: var(--primary-dark-blue);
     padding: 14rem 0;
-    overflow-x: hidden;
+    min-height: 90vh;
     
 
 }
@@ -41,18 +41,77 @@
     width: 81rem;
 }
 .hero-section__text #try-button{
-    max-width: 17.9rem;
+    max-width: 21.9rem;
     margin-top: 6rem;
-    padding: 25px 20px;
+    padding: 35px 20px;
+    font-size: 2rem;
     
 }
 .hero-img__container{
     width: 98.7rem;
     height: 65.7rem;
     background: var(--secondary-light-blue);
-    z-index: 10;
-    
-    
+    z-index: 10;  
+}
+
+
+
+/* Customize section */
+.customize{
+    width: 77vw;
+    height: 81.2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10rem;
+}
+.customize-img__container{
+    background: var(--secondary-light-blue);
+    width: 71.4rem;
+    height: 53.2rem;
+    flex: 2 1 50rem;
+}
+.customize-info{
+    flex: 2 1 50rem;
+}
+.customize-info svg{
+    transform: translate(-14px, -25px);
+}
+
+.customize-info h1{
+    color: var(--secondary-black);
+    position: relative;
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    max-width: 49rem;
+    z-index: 2;
+}
+.customize-info p{
+    color: var(--secondary-black);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    margin-top: 2.4rem;
+    max-width: 63rem;
+}
+#letsgo-button{
+    background-color: var(--primary-light-blue);
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    letter-spacing: -0.36px;
+    border-radius: 0.8rem;
+    max-width: 20rem;
+    min-height: 6.3rem;
+    margin-top: 6rem;
 }
 
 /* animation */
