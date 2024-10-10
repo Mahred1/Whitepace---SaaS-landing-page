@@ -2,21 +2,22 @@
 .hero-section{
     background: var(--primary-dark-blue);
     padding: 14rem 0;
+    overflow-x: hidden;
     
 
 }
-.background-pattern{
+.background-pattern svg{
     position: absolute;
-    width: 100vw;
-    left: 0px;
-    top: 290px;
-    opacity: 0.5;
+    transform: translate(-32px, 111px);
+    width: 296.2rem;
+    opacity: 0.6;
 }
 .hero-content{
     display: flex;
     width: 77vw;
     margin: auto;  
     column-gap: 6rem;
+    animation: fade-in 600ms 0s ease-in;
 
 }
 .hero-section__text{
@@ -37,6 +38,7 @@
     line-height: 4rem;
     letter-spacing: -0.36px;
     margin-top: 2.4rem;
+    width: 81rem;
 }
 .hero-section__text #try-button{
     max-width: 17.9rem;
@@ -50,4 +52,101 @@
     background: var(--secondary-light-blue);
     z-index: 10;
     
+    
 }
+
+/* animation */
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* Media queries */
+/* Hero Section */
+@media screen and ( max-width: 140rem){
+    .hero-content{
+        width: 95.4vw;
+    }
+    .background-pattern svg{
+        max-width: 223rem;
+    }
+}
+@media screen and ( max-width: 115.2rem){
+    .hero-content{
+        width: 90vw;
+        justify-content: space-between;
+    }
+    .hero-section__text h1{
+        width: 61rem;
+    }
+    .hero-section__text p{
+        width: 74rem;
+    }
+    .hero-img__container{
+        width: 65rem;
+        height: 41.9rem;
+    }
+    .background-pattern svg{
+        max-width: 148vw;
+        transform: translate(0px, -25px);
+    }
+}
+@media screen and ( max-width: 76.8rem){
+    .hero-content{
+        width: 95vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-section__text{
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section__text p{
+        margin-top: 2.4rem;
+    }
+    .hero-section__text #try-button{
+        margin-top: 6rem;
+        padding: 40px 60px;
+        font-size: 2.3rem;
+        max-width: max-content;
+
+    }
+    .hero-img__container{
+        margin-top: 10rem;
+        height: 43rem;
+    }
+    .background-pattern svg{
+        max-width: 100dvw;
+        transform: translate(-167px, 143px) skew(-32deg, 10deg) scale(2.6);
+    }
+}
+@media screen and ( max-width: 32rem){
+    .hero-content{
+        width: 80vw;
+    }
+    .hero-section__text h1{
+        width: 80vw;
+        font-size: 5rem;  
+    }
+    .hero-section__text p{
+        width: 80vw;
+        font-size: 2.4rem;
+        text-align: center;  
+    }
+    .hero-section__text #try-button{
+        width: 80vw;
+    }
+    .hero-img__container{
+        height: 25.3rem;
+        
+    }
+    .background-pattern svg{
+        max-width: 233vw;
+        transform: translate(10px, -120px) scale(3.5);
+    }
+}
+
