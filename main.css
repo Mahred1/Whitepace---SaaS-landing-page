@@ -53,9 +53,84 @@
     background: var(--secondary-light-blue);
     z-index: 10;  
 }
+/* Project section */
 
-
-
+.project{
+    width: 77vw;
+    margin: auto;
+    padding-top: 14rem;
+}
+.project-pattern svg{
+    position: absolute;
+    transform: translate(-265px, 49px);
+}
+.project-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    
+}
+.project-info{
+    flex: 1 1 50rem;
+}
+.project-info h1{
+    color: var(--secondary-black);
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    position: relative;
+    z-index: 2;
+    max-width: 20rem;
+}
+.project-info svg{
+    transform: translate(-2px, -61px);
+}
+.project-info p{
+    color: var(--secondary-black);
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    max-width: 76rem;
+    transform: translateY(-35px);
+}
+.project-info #project-button{
+    background-color: var(--primary-light-blue);
+    color: var(--secondary-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.3rem;
+    letter-spacing: -0.36px;
+    border-radius: 0.8rem;
+    max-width: 21.1rem;
+    min-height: 6.1rem;
+    margin-top: 6rem;
+}
+#project-button svg{
+    transform: translate(10px, 0px);
+}
+.project-img__container{
+    flex: 1 1 50rem;
+    background-color: var(--secondary-light-blue);
+    width: 74.8rem;
+    height: 54.7rem;
+}
+/* Work togther section */
+.work-together{
+    width: 77vw;
+    margin: auto;
+    padding-top: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10rem;
+}
 /* Customize section */
 .customize{
     width: 77vw;
@@ -68,8 +143,8 @@
 }
 .customize-img__container{
     background: var(--secondary-light-blue);
-    width: 71.4rem;
-    height: 53.2rem;
+    width: 74.8rem;
+    height: 54.7rem;
     flex: 2 1 50rem;
 }
 .customize-info{
@@ -112,6 +187,9 @@
     max-width: 20rem;
     min-height: 6.3rem;
     margin-top: 6rem;
+}
+#letsgo-button svg{
+    transform: translate(10px, 0px);
 }
 
 /* animation */
@@ -206,6 +284,93 @@
     .background-pattern svg{
         max-width: 233vw;
         transform: translate(10px, -120px) scale(3.5);
+    }
+}
+/* Project section */
+@media screen and ( max-width: 140rem){
+   .project{
+    width: 95vw;
+   }
+   .project-info{
+    max-width: 76.1rem;
+   }
+   .project-info p{
+    max-width: 65rem;
+
+   }
+   .project-img__container{
+    max-width: 87.1rem;
+    min-height: 53.7rem;
+   }
+   .project-pattern svg{
+    transform: translate(-174px, -140px);
+}
+}
+@media screen and ( max-width: 115.2rem){
+    .project-info{
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    .project-img__container{
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
+    .project-info p{
+        max-width: 51rem;
+       }
+    .project-info h1{
+        font-size: 6.4rem;
+    }
+    .project-pattern svg{
+        transform: translate(-167px, -132px) scale(0.7) rotate(340deg);
+    }
+    .project-info svg{
+        transform: scaleX(0.53) translate(-27px, -57px);
+    }
+
+}
+@media screen and ( max-width: 76.8rem){
+   .project-content{
+    flex-wrap: wrap;
+   }
+   .project-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .project-info p{
+        max-width: 76rem;
+        text-align: center;
+   }
+   .project-info h1{
+    max-width: fit-content;
+   }
+   .project-img__container{
+        width: 70vw;
+        height: 349px;
+    }
+    .project-info svg{
+        transform: scaleX(0.82) translate(238px,-57px);
+    }
+}
+@media screen and ( max-width: 32rem){
+    .project-info h1{
+        max-width: 70vw;
+        text-align: center;
+        font-size: 4.2rem;  
+    }
+    .project-info p{
+        max-width: 41rem;
+        text-align: center;
+    }
+    .project-info svg{
+        transform: scaleX(0.53) translate(103px, -53px);
+    }
+    .project-img__container{
+        max-width: 85vw;
+        min-height: 25.3rem;
+        
     }
 }
 
