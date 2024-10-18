@@ -207,9 +207,8 @@
     transform: translate(17rem, -2.9rem) scale(.8);
 }
 .extension-img__container{
-    flex: 1 1 50rem;
     background-color: var(--secondary-light-blue);
-    width: 74.8rem;
+    width: 90rem;
     height: 54.7rem; 
 }
 
@@ -276,7 +275,41 @@
 #letsgo-button svg{
     transform: translate(10px, 0px);
 }
-
+/* plans section */
+.plan-section{
+    width: 77vw;
+    margin: 14rem auto 14rem auto;
+}
+.plan-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-info h1{
+    color: var(--secondary-black);
+    position: relative;
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    z-index: 2;
+}
+.plan-info svg{
+    transform: translate(22rem, 2.3rem) scaleX(0.7);
+    position: absolute;
+}
+.plan-info p{
+    color: var(--secondary-black);
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    margin-top: 2.4rem;
+}
+.plans{
+    margin-top: 6rem;
+    display: flex;
+    gap: 3.2rem;
+}
 /* animation */
 @keyframes fade-in{
     from{
