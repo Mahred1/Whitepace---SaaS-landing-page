@@ -308,7 +308,94 @@
 .plans{
     margin-top: 6rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 3.2rem;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 47.2rem;
+    max-height: fit-content;
+    padding: 4rem 4.4rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--secondary-wheat);
+    background-color: var(--secondary-white);
+}
+.plan a{
+    color: var(--secondary-black);
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    padding: 1.6rem 4rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--secondary-wheat);
+    background-color: var(--secondary-white);
+    max-width: fit-content;
+}
+.plan-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    color: var(--secondary-black);
+}
+.plan-detail h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+}
+.plan-detail h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+}
+.plan-detail h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.3rem; 
+    letter-spacing: -0.36px;
+}
+.plan-features{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+}
+.plan-feature{
+    display: flex;
+    gap: 1.9rem;
+}
+.plan-feature h3{
+    color: var(--secondary-black);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.32px;
+}
+#recommended-feature h3{
+    font-size: 1.8rem;
+}
+#recommended-plan{
+    background-color: var(--primary-dark-blue);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
+    border: none;
+    border-radius: 1rem;
+}
+#recommended-feature h3,
+#recommended-plan h3,
+#recommended-plan h2{
+    color: var(--secondary-white);
+}
+#recommended-plan  h1{
+    color: var(--secondary-wheat);
+}
+#recommended-button{
+    background: var(--primary-light-blue);
+    color: var(--secondary-white);
+    border: none;
 }
 /* animation */
 @keyframes fade-in{
