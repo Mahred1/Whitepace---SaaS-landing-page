@@ -407,6 +407,7 @@
     }
 }
 /* Media queries */
+
 /* Hero Section */
 @media screen and ( max-width: 140rem){
     .hero-content{
@@ -828,4 +829,26 @@
          min-height: 25.3rem;
          
      }
+ }
+ /* Plans section */
+@media screen and ( max-width: 140rem){
+    .plan-section{
+     width: 95vw;
+    }
+ }
+ @media screen and ( max-width: 115.2rem){
+     .plan-info h1{
+        font-size: 6.4rem;
+     }
+ }
+ @media screen and ( max-width: 76.8rem){
+    .plan-section{
+        margin-top: 36rem;
+    }
+    .plan-info{
+        text-align: center;
+    }
+ }
+ @media screen and ( max-width: 32rem){
+    
  }
