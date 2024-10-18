@@ -435,7 +435,7 @@
     max-width: fit-content;
    }
    .project-img__container{
-        width: 70vw;
+        width: 80vw;
         height: 349px;
     }
     .project-info svg{
@@ -461,7 +461,88 @@
         
     }
 }
+/* Extension section */
+@media screen and ( max-width: 140rem){
+    .extension-content{
+        width: 95vw;
+    }
+    .extension-info{
+        max-width: 76.1rem;
+    }
+    .extension-img__container{
+        max-width: 87.1rem;
+        min-height: 53.7rem;
+    }
+ }
+ @media screen and ( max-width: 115.2rem){
 
+     .extension-info{
+         flex-shrink: 1;
+         flex-grow: 1;
+     }
+     .extension-img__container{
+         flex-shrink: 0;
+         flex-grow: 1;
+     }
+     .extension-info p{
+         max-width: 51rem;
+        }
+     .extension-info h1{
+         font-size: 6.4rem;
+     }
+     .extension-info svg{
+        transform: scaleX(0.7) translate(18rem, -2rem);
+     }
+ 
+ }
+ @media screen and ( max-width: 76.8rem){
+    .extension-content{
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .extension-info{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    }
+    .extension-info p{
+         max-width: max-content;
+         text-align: center;
+    }
+    .extension-info h1{
+        font-size: 5.4rem;
+     max-width: fit-content;
+    }
+    .extension-img__container{
+         max-width: 80vw;
+         height: 349px;
+     }
+     .extension-info svg{
+        transform: scaleX(0.58) translate(18rem, -1.9rem);
+     }
+ }
+ @media screen and ( max-width: 32rem){
+     .extension-info{
+        text-align: center;
+     }
+    .extension-info h1{
+         max-width: 70vw;
+         font-size: 4.2rem;  
+     }
+     .extension-info p{
+         max-width: 41rem;
+     }
+     .extension-info svg{
+        transform: scaleX(0.38) translate(235px, -14px);
+     }
+     .extension-img__container{
+         max-width: 85vw;
+         min-height: 25.3rem;
+         
+     }
+ }
 /* Work-together section */
 @media screen and ( max-width: 140rem){
     .work-together{
