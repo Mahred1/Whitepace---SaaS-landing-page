@@ -439,7 +439,37 @@
     position: absolute;
     transform: translate(0rem, -30rem);
 }
-
+/* Data section */
+.data-section{
+    padding: 14rem 0;
+}
+.data-content{
+    color: var(--secondary-black);
+    width: 77vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-info{
+    max-width: 75rem;
+}
+.data-info h1{
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    position: relative;
+    z-index: 2;
+}
+.data-info p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; 
+    letter-spacing: -0.36px;
+}
+.data-info svg{
+    transform: translate(11rem, -6rem) scalex(0.75);
+}
 /* animation */
 @keyframes fade-in{
     from{
