@@ -471,6 +471,34 @@
 .data-info svg{
     transform: translate(11rem, -6rem) scalex(0.75);
 }
+.sponsors-section{
+    width: 77vw;
+    margin: 0 auto 14rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+}
+.sponsors-heading{
+    max-height: 9rem;
+}
+.sponsors-heading h1{
+    color: var(--secondary-black);
+    text-align: center;
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    position: relative;
+    z-index: 2;
+}
+.sponsors-heading svg{
+    transform: translate(15rem, -6.3rem) scalex(0.7);
+}
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* animation */
 @keyframes fade-in{
     from{
@@ -1034,3 +1062,4 @@
             max-width: 90vw;
         }
  }
+ /* sponsors Section */
