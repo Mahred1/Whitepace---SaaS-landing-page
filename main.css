@@ -405,13 +405,41 @@
     padding: 14rem 0;
 }
 .portable-content{
-
+    color: var(--secondary-white);
     width: 77vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portable-content h1{
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    position: relative;
+    z-index: 2;
+}
+.portable-content svg{
+    transform: translate(39rem,-1.8rem);
+}
+.portable-content p{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    margin-top: 2.4rem;
+    max-width: 106.4rem;
+}
+.portable-content a{
+    margin-top: 6rem;
 }
 .portable-pattern{
     position: absolute;
+    transform: translate(0rem, -30rem);
 }
+
 /* animation */
 @keyframes fade-in{
     from{
@@ -871,4 +899,22 @@
     .plan-info svg{
         transform: translate(15rem, 0rem) scaleX(0.5);
     }
+ }
+ /* Portable SEction */
+ @media screen and ( max-width: 140rem){
+    .portable-content{
+        width: 95vw;
+    }
+    .portable-pattern{
+        transform: translate(-10rem, -30rem);
+    }
+ }
+ @media screen and ( max-width: 115.2rem){
+   
+ }
+ @media screen and ( max-width: 76.8rem){
+    
+ }
+ @media screen and ( max-width: 32rem){
+   
  }
