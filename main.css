@@ -500,6 +500,11 @@
     display: flex;
     justify-content: space-between;
 }
+/* Apps section */
+.apps-section{
+    background-color: var(--primary-dark-blue);
+    padding-inline: 14rem 0;
+}
 
 /* animation */
 @keyframes fade-in{
