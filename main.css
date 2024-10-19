@@ -397,6 +397,21 @@
     color: var(--secondary-white);
     border: none;
 }
+/* portable section */
+
+.portable{
+    background-color: var(--primary-dark-blue);
+    position:relative;
+    padding: 14rem 0;
+}
+.portable-content{
+
+    width: 77vw;
+    margin: auto;
+}
+.portable-pattern{
+    position: absolute;
+}
 /* animation */
 @keyframes fade-in{
     from{
@@ -850,5 +865,10 @@
     }
  }
  @media screen and ( max-width: 32rem){
-    
+    .plan-info h1{
+        font-size: 4.6rem;
+    }
+    .plan-info svg{
+        transform: translate(15rem, 0rem) scaleX(0.5);
+    }
  }
