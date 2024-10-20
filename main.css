@@ -1136,4 +1136,47 @@
    .sponsors-heading svg {
     transform: translate(8rem, -5.5rem) scalex(0.37);
    }
+   .sponsors img{
+        transform: scale(0.9);
+   }
  }
+ /* Apps section */
+ @media screen and ( max-width: 140rem){
+}
+@media screen and ( max-width: 115.2rem){
+    .apps-info h1{
+        font-size: 6.4rem;
+    }
+    
+}
+@media screen and ( max-width: 76.8rem){
+    .apps-content{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .apps-img__container img{
+        transform: scale(0.8);
+    }
+    .apps-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: fit-content;
+    }
+    .apps-info h1{
+        font-size: 5.4rem;
+    }
+
+    
+}
+@media screen and ( max-width: 32rem){
+    .apps-img__container img{
+        transform: scale(0.5);
+    }
+    .apps-info h1{
+        font-size: 3.2rem;
+    }
+   
+ }
+ 
