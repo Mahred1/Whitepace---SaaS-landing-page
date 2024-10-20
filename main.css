@@ -541,6 +541,91 @@
 .apps-info a{
     margin-top: 6rem;
 }
+/* testimonaials section */
+.testimonial-section{
+    padding: 14rem 0;
+}
+.testimonial-content{
+    width: 77vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-heading{
+    max-height: 8.5rem;
+}
+.testimonial-heading h1{
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: 8.4rem;
+    position: relative;
+    z-index: 2;
+}
+.testimonial-heading svg{
+    transform: translate(38rem,-6.5rem) scalex(0.4);
+}
+.testimonial-cards{
+    padding-top: 6rem;
+    display: flex;
+    gap: 3.2rem;
+}
+.testimonial-card{
+    padding: 6rem 4rem;
+    width: 47.2rem;
+    background-color: var(--primary-light-blue);
+    color: var(--secondary-white);
+    border-radius: 1rem;
+    box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.10);
+}
+.testimonial-card > p{
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.36px;
+    padding-top: 3.2rem;
+}
+.testimonial-card hr{
+    margin-top: 4rem;
+}
+.client{
+    margin-top: 6rem;
+    display: flex;
+    gap: 4.2rem;
+}
+.client-profile{
+    min-width: 9.5rem;
+    height: 9.5rem;
+}
+.client-details h2{
+    color: var(--primary-dark-blue);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.6rem;
+}
+.client-details p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: -0.32px;
+    padding-top: 2rem;
+}
+#client-1{
+    background: url('assets/img/client\ 1.png');
+}
+#client-2{
+    background: url('assets/img/client\ 2.png');
+}
+#client-3{
+    background: url('assets/img/client\ 3.png');
+}
+#white-card{
+    background: var(--secondary-white);
+    color: var(--secondary-black);
+}
+#white-card > .client .client-details h2{
+    color: var(--secondary-black);
+}
 /* animation */
 @keyframes fade-in{
     from{
@@ -1178,5 +1263,35 @@
         font-size: 3.2rem;
     }
    
+ }
+ /* Testimonials section */
+ @media screen and ( max-width: 140rem){
+    .testimonial-content{
+        width: 95vw;
+    }
+    .testimonial-card{
+        width: 43.7rem;
+    }
+}
+@media screen and ( max-width: 115.2rem){
+    .testimonial-card{
+        width: 34.1rem;
+        padding: 6rem 2.4rem;
+    }
+}
+@media screen and ( max-width: 76.8rem){
+   .testimonial-heading h1{
+        font-size: 5.4rem;
+        text-align: center;
+   }
+   .testimonial-heading svg{
+        transform: translate(10rem, -7.5rem) scalex(0.4);
+   }
+}
+@media screen and ( max-width: 32rem){
+   .testimonial-heading h1{
+        font-size: 4rem;
+        text-align: center;
+   }
  }
  
