@@ -626,6 +626,138 @@
 #white-card > .client .client-details h2{
     color: var(--secondary-black);
 }
+
+/* footer section */
+.main-footer{
+    padding: 14rem 0 0 0;
+    background-color: var(--primary-dark-blue);
+}
+.footer-content{
+    width: 77vw;
+    margin: auto;
+}
+.footer-content hr{
+    margin: 8rem 0 2rem 0;
+}
+.try-footer{
+    color: var(--secondary-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.try-footer h1{
+    font-size: 7.2rem;
+    font-weight: 700;
+    letter-spacing: -1.44px;
+    width: 60rem;
+    text-align: center;
+}
+.try-footer h3{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem; 
+    letter-spacing: -0.48px;
+    padding-top: 2.4rem;
+    text-align: center;
+}
+.try-footer a{
+    margin-top: 4rem;
+    min-width: fit-content;
+}
+.try-footer h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem; 
+    letter-spacing: -0.48px;
+    margin-top: 4rem;
+}
+.platform-icons{
+    display: flex;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+.sub-footer{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 14rem;
+}
+.brand-footer p{
+    color: var(--secondary-white);
+    max-width: 24rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; 
+    letter-spacing: -0.36px;
+}
+.sub-footer__item{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    min-width: 20.5rem;
+}
+.sub-footer__item a{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.32px;
+    min-width: max-content;
+}
+.sub-footer__item a:hover,
+.sub-footer__item a:active{
+    color:  var(--secondary-wheat);
+}
+.sub-footer__item a:nth-child(1) {
+    font-size: 2.3rem ;
+    font-weight: 700 ;
+    letter-spacing: -0.36px;
+}
+#footer-cta{
+    color: var(--secondary-white);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+#footer-cta h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    letter-spacing: -0.56px;
+}
+#footer-cta  a{
+    margin-top: 1rem;
+}
+#footer-cta p{
+    width: 29rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: -0.32px;
+}
+.footer-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.2rem;
+}
+.footer-detail{
+    display: flex;
+    gap: 6rem;
+}
+.footer-detail a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: -0.32px;
+}
+.language{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.footer-socials{
+    display: flex;
+    gap: 3.2rem;
+}
 /* animation */
 @keyframes fade-in{
     from{
@@ -635,6 +767,7 @@
         opacity: 1;
     }
 }
+
 /* Media queries */
 
 /* Hero Section */
