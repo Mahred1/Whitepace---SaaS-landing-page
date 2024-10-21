@@ -95,24 +95,13 @@
     max-width: 76rem;
     transform: translateY(-35px);
 }
-.project-info #project-button{
-    background-color: var(--primary-light-blue);
-    color: var(--secondary-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 1rem;
+.project-button{
     padding: 2rem 4rem;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.3rem;
-    letter-spacing: -0.36px;
-    border-radius: 0.8rem;
-    max-width: 21.1rem;
+    max-width: 21.1rem !important;
     min-height: 6.1rem;
     margin-top: 6rem;
 }
-#project-button svg{
+.project-button svg{
     transform: translate(10px, 0px);
 }
 .project-img__container{
@@ -256,25 +245,7 @@
     margin-top: 2.4rem;
     max-width: 63rem;
 }
-#letsgo-button{
-    background-color: var(--primary-light-blue);
-    display: flex;
-    padding: 20px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.3rem;
-    letter-spacing: -0.36px;
-    border-radius: 0.8rem;
-    max-width: 20rem;
-    min-height: 6.3rem;
-    margin-top: 6rem;
-}
-#letsgo-button svg{
-    transform: translate(10px, 0px);
-}
+
 /* plans section */
 .plan-section{
     width: 77vw;

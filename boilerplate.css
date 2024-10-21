@@ -32,6 +32,28 @@ h2{
     color: white;
     text-decoration: none;
  }
+
+ /* blue button */
+ #blue-button{
+   background-color: var(--primary-light-blue);
+   color: var(--secondary-white);
+   display: flex;
+   padding: 20px 40px;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   font-size: 2rem;
+   font-weight: 500;
+   line-height: 2.3rem;
+   letter-spacing: -0.36px;
+   border-radius: 0.8rem;
+   max-width: 20rem;
+   min-height: 6.3rem;
+   margin-top: 6rem;
+}
+#blue-button svg{
+   transform: translate(10px, 0px);
+}
  :root{
     --primary-dark-blue: #043873;
     --primary-light-blue: #4f9cf9;
