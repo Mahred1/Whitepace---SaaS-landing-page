@@ -85,6 +85,14 @@
 }
 .toggle-btn{
     display: none;
+    cursor: pointer;
+}
+.toggle-btn svg{
+    overflow: hidden;
+   
+}
+.toggle-btn svg line{
+    transform-origin: 9% 0% !important;
 }
 
 /* Media queries */
